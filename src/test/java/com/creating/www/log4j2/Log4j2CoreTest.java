@@ -15,7 +15,9 @@ public class Log4j2CoreTest {
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
 	}
-
+    /**
+     * 控制台上检查是否有HEHE，如果有，日志配置没有问题
+     * */
 	@Test
 	public void test() {
 		logger.debug("hehe");
